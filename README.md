@@ -25,7 +25,7 @@ Number 5 (HTML) Done
 
 Number 6a Done
 
-![6a]
+![6a](https://user-images.githubusercontent.com/59035856/75092950-b3a82380-55af-11ea-88ea-576fa73bcfa4.PNG)
 
 Number 6b
 
