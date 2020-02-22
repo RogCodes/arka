@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+
+    <title>Untitled document</title>
+
+    <!--<link rel="stylesheet" href="screen.css" media="screen">-->
+
+    <style media="screen">
+        body {
+            background-color: #f9f9f9;
+            font: normal 1em / 1.5em BlinkMacSystemFont, -apple-system, 'Segoe UI', roboto, helvetica, arial, sans-serif;
+        }
+
+        #result {
+            display: inline-block;
+            padding: 1em;
+            border: 1px solid #999;
+            background-color: #fff;
+        }
+
+        #result span {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="result"></div>
+
+    <script>
+        (function (d) {
+            'use strict';
+            var vowel = ['a', 'e', 'i', 'o', 'u'],
+                words = [' cat', ' listen', ' code', ' act', ' silent', ' tac'],
+                c;
+            for (c = 0; c < vowel.length; c++) {
+                const test = words.filter(word => word.match(vowel[c]));
+
+                if (test.length >= 2) {
+                    d.getElementById('result').innerHTML +=
+                        'The "<span>' + vowel[c] + '</span>" matches are - <span>' + test + '</span>.<br>';
+                }
+            }
+        }(document));
+    </script>
+
+</body>
+
+</html>
