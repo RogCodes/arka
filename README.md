@@ -27,9 +27,9 @@ Number 6a Done
 
 ![6a](https://user-images.githubusercontent.com/59035856/75092950-b3a82380-55af-11ea-88ea-576fa73bcfa4.PNG)
 
-Number 6b
+Number 6b Done
 
-![6b]
+![home](https://user-images.githubusercontent.com/59035856/75094061-12729a80-55ba-11ea-9c23-768a3090f5a8.PNG)
 
 Number 6c
 
