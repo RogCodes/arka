@@ -33,4 +33,4 @@ Number 6b Done
 
 Number 6c
 
-![6c]
+![home](https://user-images.githubusercontent.com/59035856/75112898-334ef480-567b-11ea-8610-4a1a8b27a888.PNG)
